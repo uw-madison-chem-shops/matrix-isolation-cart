@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name UWChem_Contactor)(type Legacy)(uri ${KIPRJMOD}/UWChem_KiCad_libraries/contactor/UWChem_Contactor.lib)(options "")(descr ""))
+  (lib (name ammeter)(type Legacy)(uri ${KIPRJMOD}/ammeter.lib)(options "")(descr ""))
+  (lib (name hourmeter)(type Legacy)(uri ${KIPRJMOD}/hourmeter.lib)(options "")(descr ""))
 )
