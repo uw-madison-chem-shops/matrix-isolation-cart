@@ -1,0 +1,298 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L UWChem_Contactor:WA141206GIE U?
+U 1 1 5C8AFA88
+P 5500 3550
+F 0 "U?" H 5500 4267 50  0000 C CNN
+F 1 "WA141206GIE" H 5500 4176 50  0000 C CNN
+F 2 "" H 4150 4000 50  0001 C CNN
+F 3 "" H 4150 4000 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Open SW?
+U 1 1 5C8B0594
+P 4800 2550
+F 0 "SW?" H 4800 2765 50  0000 C CNN
+F 1 "SW_Push_Open" H 4800 2674 50  0000 C CNN
+F 2 "" H 4800 2750 50  0001 C CNN
+F 3 "~" H 4800 2750 50  0001 C CNN
+	1    4800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C8B0761
+P 5500 2550
+F 0 "SW?" H 5500 2835 50  0000 C CNN
+F 1 "SW_Push" H 5500 2744 50  0000 C CNN
+F 2 "" H 5500 2750 50  0001 C CNN
+F 3 "~" H 5500 2750 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AC #PWR?
+U 1 1 5C8B0ADC
+P 1800 1550
+F 0 "#PWR?" H 1800 1450 50  0001 C CNN
+F 1 "AC" H 1800 1825 50  0000 C CNN
+F 2 "" H 1800 1550 50  0001 C CNN
+F 3 "" H 1800 1550 50  0001 C CNN
+	1    1800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:NEUT #PWR?
+U 1 1 5C8B0B5B
+P 1300 1450
+F 0 "#PWR?" H 1300 1300 50  0001 C CNN
+F 1 "NEUT" H 1317 1623 50  0000 C CNN
+F 2 "" H 1300 1450 50  0001 C CNN
+F 3 "" H 1300 1450 50  0001 C CNN
+	1    1300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B0BC5
+P 800 1100
+F 0 "#PWR?" H 800 850 50  0001 C CNN
+F 1 "GND" H 805 927 50  0000 C CNN
+F 2 "" H 800 1100 50  0001 C CNN
+F 3 "" H 800 1100 50  0001 C CNN
+	1    800  1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2550 5700 2550
+Wire Wire Line
+	4000 3900 5200 3900
+Wire Wire Line
+	5850 3900 5800 3900
+$Comp
+L Device:Amperemeter_AC MES?
+U 1 1 5C8B16AD
+P 1800 2050
+F 0 "MES?" H 1953 2096 50  0000 L CNN
+F 1 "Amperemeter_AC" H 1953 2005 50  0000 L CNN
+F 2 "" V 1800 2150 50  0001 C CNN
+F 3 "~" V 1800 2150 50  0001 C CNN
+	1    1800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CB?
+U 1 1 5C8B1D2A
+P 8450 3700
+F 0 "CB?" V 8185 3700 50  0000 C CNN
+F 1 "CircuitBreaker_1P" V 8276 3700 50  0000 C CNN
+F 2 "" H 8450 3700 50  0001 C CNN
+F 3 "~" H 8450 3700 50  0001 C CNN
+	1    8450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CB?
+U 1 1 5C8B225B
+P 8450 4300
+F 0 "CB?" V 8185 4300 50  0000 C CNN
+F 1 "CircuitBreaker_1P" V 8276 4300 50  0000 C CNN
+F 2 "" H 8450 4300 50  0001 C CNN
+F 3 "~" H 8450 4300 50  0001 C CNN
+	1    8450 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CB?
+U 1 1 5C8B275B
+P 8450 4900
+F 0 "CB?" V 8185 4900 50  0000 C CNN
+F 1 "CircuitBreaker_1P" V 8276 4900 50  0000 C CNN
+F 2 "" H 8450 4900 50  0001 C CNN
+F 3 "~" H 8450 4900 50  0001 C CNN
+	1    8450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CB?
+U 1 1 5C8B2762
+P 8450 5500
+F 0 "CB?" V 8185 5500 50  0000 C CNN
+F 1 "CircuitBreaker_1P" V 8276 5500 50  0000 C CNN
+F 2 "" H 8450 5500 50  0001 C CNN
+F 3 "~" H 8450 5500 50  0001 C CNN
+	1    8450 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2550 5150 2550
+Wire Wire Line
+	5850 2550 5850 3100
+Wire Wire Line
+	5800 3100 5850 3100
+Connection ~ 5850 3100
+Wire Wire Line
+	5850 3100 5850 3900
+Wire Wire Line
+	5200 3100 5150 3100
+Wire Wire Line
+	5150 3100 5150 2550
+Connection ~ 5150 2550
+Wire Wire Line
+	5150 2550 5300 2550
+Wire Wire Line
+	5200 3300 4250 3300
+Wire Wire Line
+	4250 3300 4250 2550
+Wire Wire Line
+	5200 3500 4000 3500
+Wire Wire Line
+	4000 3500 4000 3900
+$Comp
+L Connector:Conn_WallSocket_Earth J?
+U 1 1 5C8B4180
+P 9250 3900
+F 0 "J?" H 9505 3911 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 9505 3820 50  0000 L CNN
+F 2 "" H 8950 4000 50  0001 C CNN
+F 3 "~" H 8950 4000 50  0001 C CNN
+	1    9250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallSocket_Earth J?
+U 1 1 5C8B41B6
+P 9250 4500
+F 0 "J?" H 9505 4511 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 9505 4420 50  0000 L CNN
+F 2 "" H 8950 4600 50  0001 C CNN
+F 3 "~" H 8950 4600 50  0001 C CNN
+	1    9250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallSocket_Earth J?
+U 1 1 5C8B4268
+P 9250 5100
+F 0 "J?" H 9505 5111 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 9505 5020 50  0000 L CNN
+F 2 "" H 8950 5200 50  0001 C CNN
+F 3 "~" H 8950 5200 50  0001 C CNN
+	1    9250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallSocket_Earth J?
+U 1 1 5C8B42B0
+P 9250 5700
+F 0 "J?" H 9505 5711 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 9505 5620 50  0000 L CNN
+F 2 "" H 8950 5800 50  0001 C CNN
+F 3 "~" H 8950 5800 50  0001 C CNN
+	1    9250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3700 9050 3700
+Wire Wire Line
+	8750 4300 9050 4300
+Wire Wire Line
+	9050 4900 8750 4900
+Wire Wire Line
+	8750 5500 9050 5500
+Wire Wire Line
+	8150 4300 8050 4300
+Wire Wire Line
+	8050 4300 8050 3700
+Wire Wire Line
+	8050 3700 8150 3700
+Wire Wire Line
+	8050 4300 8050 4900
+Wire Wire Line
+	8050 5500 8150 5500
+Connection ~ 8050 4300
+Wire Wire Line
+	8150 4900 8050 4900
+Connection ~ 8050 4900
+Wire Wire Line
+	8050 4900 8050 5500
+Wire Wire Line
+	7950 5700 9050 5700
+Wire Wire Line
+	9050 5100 7950 5100
+Connection ~ 7950 5100
+Wire Wire Line
+	7950 5100 7950 5700
+Wire Wire Line
+	9050 4500 7950 4500
+Connection ~ 7950 4500
+Wire Wire Line
+	7950 4500 7950 5100
+Wire Wire Line
+	9050 3900 7950 3900
+Wire Wire Line
+	9050 4100 8950 4100
+Wire Wire Line
+	8950 4100 8950 4700
+Wire Wire Line
+	8950 5900 9050 5900
+Connection ~ 8950 4100
+Wire Wire Line
+	9050 5300 8950 5300
+Connection ~ 8950 5300
+Wire Wire Line
+	8950 5300 8950 5900
+Wire Wire Line
+	9050 4700 8950 4700
+Connection ~ 8950 4700
+Wire Wire Line
+	8950 4700 8950 5300
+Wire Wire Line
+	1800 1550 1800 1850
+Wire Wire Line
+	1800 2250 1800 2550
+Wire Wire Line
+	1800 2550 4250 2550
+Connection ~ 4250 2550
+Wire Wire Line
+	4250 2550 4600 2550
+Wire Wire Line
+	1300 1500 1300 3500
+Wire Wire Line
+	1300 3500 4000 3500
+Connection ~ 4000 3500
+Wire Wire Line
+	800  1100 800  950 
+Wire Wire Line
+	800  950  8950 950 
+Wire Wire Line
+	8950 950  8950 4100
+Wire Wire Line
+	5800 3300 8050 3300
+Wire Wire Line
+	8050 3300 8050 3700
+Connection ~ 8050 3700
+Wire Wire Line
+	5800 3500 7950 3500
+Wire Wire Line
+	7950 3500 7950 3900
+Connection ~ 7950 3900
+Wire Wire Line
+	7950 3900 7950 4500
+$EndSCHEMATC
